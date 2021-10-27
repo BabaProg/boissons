@@ -1,0 +1,28 @@
+.flex-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-item-left {
+    padding: 10px;
+    flex: 50%;
+}
+
+.flex-item-right {
+    padding: 10px;
+    flex: 50%;
+}
+
+@media (max-width: 800px) {
+    .flex-container {
+      flex-direction: column;
+    }
+}
+
+.alcool {
+    color: red;
+}
+
+.notAlcool {
+    color: blue;
+}
